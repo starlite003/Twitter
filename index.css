@@ -12,12 +12,37 @@ body{
     /* background-color: blue; */
   min-height:100vh;
 
+
+}
+
+.star i{ 
+ font-size: 30px;
+
 }
 .one{
     background-color: red; 
     flex: 0.3;
+    padding:0px 5px 0px 20px ; 
+
 }
 
+.one ul { background-color: yellow;
+    margin: 5px 0px 5px 0px;
+
+}
+.one1 ul li{ 
+    list-style: none;
+    /* font-size: 69px; */ 
+    padding: 7px 0px 7px 0px;
+    font-size: 20px;
+    border: solid green 1px;
+    
+
+}
+
+.one1 ul li:hover {
+    background-color: blue ; cursor: pointer;
+}
 .two{
      /* background-color: green; */
     flex: 0.4;
@@ -31,4 +56,18 @@ body{
 
 .two p{ display: inline;
 
+}
+
+.B1 button:hover{
+ background-color: blue;
+  cursor: pointer; 
+
+   
+} 
+
+.B1 button{
+     border-style: none;
+     font-size: 25px ;
+     padding: 0px 70px 0px 70px ;
+     text-align: center;
 }
