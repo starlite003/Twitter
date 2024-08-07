@@ -1,73 +1,1079 @@
 * {
-    margin: 0; 
-    padding: 0;box-sizing: border-box;
-}
-body{
-    /* background-color: yellow; */
-    
-
-}
-.Section1{
-    display: flex;
-    /* background-color: blue; */
-  min-height:100vh;
-
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.star i{ 
- font-size: 30px;
-
-}
-.one{
-    background-color: red; 
-    flex: 0.3;
-    padding:0px 5px 0px 20px ; 
-
-}
-
-.one ul { background-color: yellow;
-    margin: 5px 0px 5px 0px;
-
-}
-.one1 ul li{ 
-    list-style: none;
-    /* font-size: 69px; */ 
-    padding: 7px 0px 7px 0px;
-    font-size: 20px;
-    border: solid green 1px;
-    
-
-}
-
-.one1 ul li:hover {
-    background-color: blue ; cursor: pointer;
-}
-.two{
-     /* background-color: green; */
-    flex: 0.4;
-
-}
-.three{
-    /* background-color: turquoise; */
-    flex: 0.2;
+body {
+   /* background-color: yellow;   */
+   background-color:white;
+   min-height:100vh;
 }
 
 
-.two p{ display: inline;
 
+.Section1 {
+  display: flex;
+   /* background-color: blue;  */
+  /* min-height: 100vh; */
 }
 
-.B1 button:hover{
- background-color: blue;
-  cursor: pointer; 
+.star {
+  font-size: 30px;
+  padding: 0 0 0 4%;
+}
 
-   
-} 
+.star a{
+  color:  #4cb7e4;
+}
 
-.B1 button{
-     border-style: none;
-     font-size: 25px ;
+.one {
+  /* background-color: lime; */
+  background-color: #ffffff;
+  flex: 0.3;
+  padding: 0px 5px 0px 20px;
+  /* min-height: 100vh; */
+  margin-right: -100px;
+  
+}
+
+.one ul {
+  /* background-color: tomato;   */
+  margin: 5px 0px 5px 0px;
+}
+
+.one1 ul li {
+   list-style: none;
+  /* font-size: 69px; */
+  padding: 14px 0px 14px 0px;
+  font-size: 20px;
+  /* border: 1px solid blue; */
+  /* background-color: lime;   */
+  /* background-color: #ffffff; */
+    border-radius: 25px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.one ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.one1 ul li:hover{ 
+  /* i created it  */
+  /* background-color: blue; */
+  /* cursor: pointer; */
+}
+
+.one1 ul li span {
+  padding: 4%;
+}
+
+.one1 ul li span:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.section-two {
+   /* background-color: green;  */
+  flex: 0.4;
+  border-left: solid lightgray 0.1px;
+  border-right: solid lightgray 0.1px;
+  margin-right: 0px;
+  position: ;
+}
+
+.first-div-of-section-two{
+  display: flex;
+background-color:white; 
+height: 8%;
+width: 43%;
+border-bottom: solid lightgray 0.1px;
+position:fixed;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* FIRST SUB DIV BEGINS*/
+.first-div-of-section-two-sub-div-1{
+  flex: 0.5;
+   background-color: ; 
+  align-content: center;
+}
+
+.first-div-of-section-two-sub-div-1 p{
+padding-left: 85px; 
+}
+
+.first-div-of-section-two-sub-div-1:hover{
+  background-color:lightgray;
+  cursor: pointer;
+  transition:3sec;
+}
+
+
+/* this is still under (first-div-of-section-two-sub-div-1) */
+.little-button{
+width: 20%;
+background-color:rgb(101, 159, 207);
+height: 10%;
+margin-top:7%;
+margin-left: 39%;
+border-radius:20px;
+}
+
+.first-div-of-section-two-sub-div-2{
+  flex: 0.5;
+  /* background-color: yellow; */
+  align-content: center;
+}
+
+.first-div-of-section-two-sub-div-2 p{
+  padding-left: 85px;
+}
+
+.first-div-of-section-two-sub-div-2:hover{
+  background-color: lightgray;
+  cursor: pointer;
+  
+}
+
+.second-div-of-section-two{
+/* background-color: tomato;  */
+border-bottom: solid lightgray 0.1px;
+height: 3%;
+margin-top: 10%;
+}
+
+.second-div-of-section-two-sub-div-1{
+  /* padding:4%; */
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* margin-bottom:%; */
+  /* background-color:; */
+}
+
+.second-div-of-section-two-sub-div-1 i:hover{
+  cursor: pointer;
+}
+
+.second-div-of-section-two-sub-div-1 i{
+  background-color:rgb(226, 235, 238);
+  /* cursor: pointer; */
+  border-radius: 50%;
+  padding: 2%;
+  margin-left: 2%;
+  margin-top:1%;
+}
+
+.menu-icons{
+color: skyblue;
+display: flex;
+justify-content: space-between; 
+width: 35%;
+margin-left:-10%;  
+ /* background-color: yellow;  */
+ padding-top: 2.5%;  
+ /* margin-top: -6%; */
+}
+
+.menu-icons i:hover{
+ background-color: rgb(225, 231, 233);
+ border-radius: 50px;
+ cursor:pointer;                       
+ /* height: 90%; */
+}
+
+
+
+.second-div-of-section-two button{
+  /* display: inline;  */
+    width: 60px;
+   height: 32px; 
+  border-radius: 50px;
+  background-color: rgb(30, 120, 155);
+  border: none;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-bottom: 5%;  
+  /* margin-right: 200px;  */
+}
+
+.second-div-of-section-two-sub-div-2{
+display:flex;
+justify-content: space-evenly; 
+/* margin-top: 3%; */
+ /* background-color: red;  */
+margin-bottom: 100%;
+}
+
+.post-button{
+  /* background-color:pink; */
+  margin-right:-18%;
+}
+
+.show-490posts{
+height: 1.5%;
+align-content: center; 
+/* margin-left:40%; */
+/* background-color:lime; */
+}
+
+.show-490posts p{
+font-family:'Times New Roman', Times, serif;
+color:rgb(52, 124, 153);
+margin-left:40%;
+}
+
+.show-490posts:hover{
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
+
+.first-post{
+  border-top: 0.1px solid lightgray ; 
+   border-bottom: 0.1px solid lightgray ; 
+  /* border-radius:50%;  */
+  /* margin: 30px; */
+  /* background-color: #4cb6e4;  */
+   height:21%; 
+   /* display: flex; */
+   /* background-color: yellow */
+   ;
+}
+
+.first-post:hover{
+background-color:rgb(235, 235, 235);
+cursor: pointer;
+}
+
+
+.video-div{
+  border-radius:5%; 
+   margin-left: 5%; 
+  /* width: 40%;  */
+  background-color: black;
+  /* align-self: center; */
+  /* height: 20%; */
+  margin-right:8%;
+}
+
+.video-div video{
+  /* object-fit:cover;   */
+   /* position: absolute;  */
+   /* max-width: 100%;  */
+   /* max-width: 100%; */
+   width: 270px;
+   /* height: 100px; */
+   /* border-radius: 20px; */
+   margin-left: 18%;
+}
+
+.first-post-sub-div-1{
+   display: flex; 
+/* flex-direction: column;  */
+ margin-left: 2%;
+ margin-top: 2%;
+ /* justify-content:; */
+}
+
+.first-post-sub-div-1 img{
+  border-radius:50%;  
+  /* display:block;   */
+  /* margin-left: 2%;  */
+  /* size:0%;   */
+  /* margin-top:2%;  */
+  height:10%; 
+  width:5%; 
+}
+
+
+.first-post-sub-div-2{
+display: flex;
+flex-direction: column;
+margin-left:1%;
+}
+
+.first-post-sub-div-2 a:hover{
+  text-decoration: underline;
+}
+
+/* FIRST POST ENDS, SECOND POST BEGINS */
+
+.second-post{
+  border-top: 0.1px solid lightgray ; 
+  border-bottom: 0.1px solid lightgray ; 
+  height:20%; 
+}
+
+.second-post:hover{
+  background-color:rgb(243, 240, 240);
+  cursor: pointer;
+}
+
+.second-post-sub-div-1 img{
+  border-radius:50%;  
+  height:10%; 
+  width:5%; 
+}
+
+.second-post-sub-div-1{
+  display: flex; 
+ margin-left: 2%;
+ margin-top: 2%;
+}
+
+.image-div img{
+  border-radius:5%; 
+   margin-left: 8%;  
+  background-color: black;
+  margin-right: 5%; 
+  width: 90%; 
+}
+
+.second.post-sub-div-2{
+  display: flex;
+flex-direction: column;
+margin-left:1%;
+}
+
+.post-interactions{
+  display:flex;
+  justify-content: space-between;
+  margin-left:10%;
+  margin-right: 4%;
+  /* background-color: lime; */
+  width: 70%;
+}
+
+.subsequent-div-of-post-interactions{
+  justify-content: space-between;
+  /* background-color: #4cb6e4; */
+  /* display: flex; */
+  margin-left: 87%; 
+  /* display: inline; */
+  margin-top: -3%;
+}
+
+/* SECOND POST ENDS, THIRD POST BEGINS */
+
+.third-post{
+  border-top: 0.1px solid lightgray ; 
+  border-bottom: 0.1px solid lightgray ; 
+  height:20%; 
+}
+
+.third-post-sub-div-1 img{
+  border-radius:50%;  
+  height:10%; 
+  width:5%; 
+}
+
+.third-post-sub-div-1{
+  display: flex; 
+ margin-left: 2%;
+ margin-top: 2%;
+}
+
+.image-div img{
+  border-radius:5%; 
+   margin-left: 8%; 
+  background-color: black;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.third.post-sub-div-2{
+  display: flex;
+flex-direction: column;
+margin-left:1%;
+}
+
+.post-interactions{
+  display:flex;
+  justify-content: space-between;
+  margin-left:10%;
+  margin-right: 4%;
+    /* background-color: lime;    */
+  margin-top:2%;
+  padding: 0%;
+}
+
+.subsequent-div-of-post-interactions{
+  justify-content: space-between;
+   /* background-color: #4cb6e4;  */
+  margin-right:3%;
+  margin-top: -4.5%;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+.post-interactions span:hover{
+  cursor: pointer;
+  color: pink;
+  /* background-color: green; */
+  /* border-radius: 50%; */
+}
+
+.post-interactions span{
+  /* padding:2; */
+}
+
+.post-interactions i{
+  font-size:11px;
+  color:lightslategray;
+}
+
+.subsequent-div-of-post-interactions i{
+  font-size:11px;
+  color:lightslategray;
+}
+
+#colour-1{
+   padding: 2%;
+  /* border-radius: 56%;  */
+}
+
+
+#colour-1:hover{
+  /* border-radius:50%; */
+  /* cursor: pointer; */
+  /* background-color:rgb(245, 214, 214);*/
+   color:  #4cb7e4;  
+  /* padding: 2%; */
+  cursor: pointer;
+}
+
+/* .interaction-1{
+  padding: 2%;
+  border-radius: 56%;
+  background-color: purple;
+} */
+
+#colour-2{
+  padding: 2%;
+border-radius: 56%;
+}
+
+#colour-2:hover{
+  color:rgb(87, 221, 87);
+  /* background-color: lightgreen; */
+  cursor: pointer;
+}
+
+#colour-3{
+  padding: 2%;
+border-radius: 56%;
+}
+
+#colour-3:hover{
+  color:rgb(250, 6, 148);
+  /* background-color: lightyellow; */
+  cursor: pointer;
+}
+
+#colour-4{
+  padding: 2%;
+border-radius: 56%;
+}
+
+#colour-4:hover{
+  color: #4cb7e4;
+  /* background-color:lightblue; */
+  cursor: pointer;
+}
+
+#colour-5:hover{
+ color: #4cb7e4;
+ cursor: pointer;
+}
+
+#colour-6:hover{
+  color: #4cb7e4;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/* THIRD POST ENDS, FOURTH POST BEGINS  */
+
+.fourth-post{
+  border-top: 0.1px solid lightgray ; 
+   border-bottom: 0.1px solid lightgray ; 
+   height:21%; 
+}
+
+.fourth-post:hover{
+background-color:rgb(235, 235, 235);
+cursor: pointer;
+}
+
+
+/* .video-div{
+  border-radius:5%; 
+   margin-left: 10%; 
+  background-color: black;
+  margin-right: 5%; 
+}*/
+
+.fourth-post video{
+   /* width: 50%; */
+   margin-left: 20%;
+   /* border-radius: 5%;  */
+
+   border-radius:5%; 
+   /* margin-left: 10%;  */
+   width: 270px;  
+  background-color: black;
+  /* align-self: center; */
+  /* height: 20%; */
+  margin-right: 5%;
+  
+}
+
+.fourth-post-sub-div-1{
+   display: flex; 
+ margin-left: 2%;
+ margin-top: 2%;
+ /* justify-content:; */
+}
+
+.fourth-post-sub-div-1 img{
+  border-radius:50%;  
+  height:10%; 
+  width:5%;
+}
+
+
+.fourth-post-sub-div-2{
+display: flex;
+flex-direction: column;
+margin-left:1%;
+}
+
+.fourth-post-sub-div-2 a:hover{
+  text-decoration: underline;
+}
+/* THIS IS WHERE EVERYTHING ABOUT CHILD TWO 2 ENDS, AND CHILD THREE 3 BEGINS */
+
+.three {
+   /* background-color: pink;  */
+  flex: 0.3;
+  /* display: flex;
+  flex-direction: column; */
+  margin-right: -20px;
+}
+
+.section-two p {
+  display: inline;
+}
+
+.B1 button:hover { 
+  background-color:#4cb6e4d8;
+  cursor: pointer;
+}
+
+.B1 button {
+  border-style: none;
+  /*font-size: 25px ;
      padding: 0px 70px 0px 70px ;
-     text-align: center;
+     margin: 0px 0px 0px 10px;
+     padding: 5px 0px 5px 0px;*/
+  text-align: center;
+  background-color: #4cb7e4;
+  border-radius: 25px;
+  width: 60%;
+  padding: 4%;
+  color: #ffffff;
 }
+
+/* THIS CONTAINS THE USER DETAILS */
+.user {
+  /* position: relative;
+  left: 15px;
+  top: 42px; */
+  display: flex;
+  padding: 2%;
+  margin: 22px 0 0 0;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user:hover {
+  border-radius: 25px;
+  background-color: lightgrey;
+}
+
+.three {
+   /* background-color: turquoise;  */
+  flex: 0.3;
+  max-height:1500px;
+  position:relative;
+
+}
+
+.elipsis {
+  /*
+  position: relative;
+  top: -25px;
+  left: 160px; */
+}
+
+.child-one input {
+  /*background-color:yellow;*/
+  border: none;
+  background-color: rgb(243, 239, 239);
+  width: 88%;
+  outline: none;
+}
+
+.child-one {
+  /* border-radius: 25px;
+  width: 88%;
+  padding: 2.5%;
+  background-color: rgb(243, 239, 239);
+  margin: 5px 0px 0px 10px;
+  position:fixed; */
+
+  border-radius: 25px;
+  width: 100%;
+  padding: 2.5%; 
+  background-color: rgb(243, 239, 239); 
+  /* background-color: #4cb6e4;  */
+  margin: 5px 0px 0px 10px;
+  /* position: fixed; */
+  /* height: 8%; */
+}
+
+.housing-div-of-child-one{
+  position:fixed;
+  /* background-color: red; */
+  padding: 0px 10px 0px 10px;
+  width: 30%;
+  height: 8%;
+  background-color: white;
+  /* margin-bottom:5%; */
+}
+/* THIS IS WHERE EVERYTHING ABOUT CHILD-ONE ENDS,
+AND CHILD TWO BEGINS*/
+
+.strategic-empty-div{
+width:88%;
+background-color: orange; 
+height: 3%;
+/* border: 10px solid blue; */
+}
+
+
+.child-two {
+  border: solid lightgray 0.1px;
+  /* padding:0px 0px 10px 4px ; */
+  border-radius: 8px;
+  margin: 4%;
+  /*display: flex;
+flex-direction: column;*/
+  width: 88%;
+  background-color: #ffffff;
+  padding: 0px 10px 0px 10px;
+  /* overflow: hidden; */
+  /* line-height: 0%; */
+  outline: none;
+  margin-top:0%;
+   max-height: 100%vph;
+  margin-top:12%;
+}
+
+.child-two button {
+  background-color: black;
+  border-radius: 20px;
+  color: #ffffff;
+  border: none;
+  width: 37%;
+  /* height: 5%; */
+  padding: 4%;
+  /* line-height: 0px; */
+  margin-bottom: 8px;
+}
+
+.child-two h3 {
+  margin: 7px 0px 5px 0px;
+}
+
+.child-two p {
+  margin: 6px;
+
+}
+
+.child-two button:hover {
+  cursor: pointer;
+  background-color: rgb(34, 31, 31);
+}
+
+/* THIS IS WHERE EVERYTHING ABOUT CHILD-TWO 2 ENDS, AND CHILD THREE 3 BEGINS*/
+
+.child-three {
+  border:  solid lightgray 0.1px; 
+  width: 88%;
+  margin: 0% 4% 0% 4%;
+  /* padding: 0px 10px 0px 10px;  */
+  border-radius: 8px;
+}
+
+.child-three h3 {
+  margin: 10px 10px;
+}
+
+.child-three h6 {
+  color: darkgray;
+  font-weight: 700;
+
+
+}
+
+.child-three p {
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+/* FIRST TREND BEGINS  */
+
+.first-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 10px 0px 5px 0px;
+  /* flex-direction: column; */
+  /* flex-direction:column; */
+  /* justify-content: space-between; */
+  /* line-height:0%; */
+  padding: 5px 15px 5px 15px;
+}
+
+
+.first-trend:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+/* FIRST TREND ENDS, SECOND TREND BEGINS */
+.second-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color:#4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.second-trend:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+/* SECOND TREND ENDS, THIRD TREND BEGINS */
+.third-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.third-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* THIRD TREND ENDS, FOURTH TREND BEGINS */
+.fourth-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.fourth-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* FOURTH TREND ENDS, FIFTH TREND BEGINS  */
+
+.fifth-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.fifth-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* FIFTH TREND ENDS, SIXTH TREND BEGINS  */
+
+.sixth-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.sixth-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* SIXTH TREND ENDS, SEVENTH TREND BEGINS */
+.seventh-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.seventh-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* SEVENTH TREND ENDS, AND EIGHT TREND BEGINS */
+
+.eight-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.eight-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* EIGHT TREND ENDS, NINTH TREND BEGINS */
+
+.ninth-trend {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #4cb7e4; */
+  padding: 5px 15px 5px 15px;
+}
+
+.ninth-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* NINTH TREND ENDS, TENTH TREND CONTINUES  */
+
+.tenth-trend {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px 5px 15px;
+}
+
+.tenth-trend:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.Show-more {
+  color: #4cb7e4;
+  /* margin: 10px; */
+  /* padding: 10px; */
+  padding: 15px 5px 15px 5px;
+}
+
+.Show-more:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+/* THIS IS WHERE EVERYTHING ABOUT CHILD THREE 3 ENDS, AND CHILD FOUR 4 BEGINS */
+
+.child-four {
+  border: solid lightgray 0.1px;
+  width: 88%; 
+  border-radius: 8px;
+  margin: 4%;
+  justify-content: space-evenly;
+}
+
+.image-and-name {
+  display: flex;
+  margin-right: -50px;
+  padding-right: -30%;
+}
+
+.child-four h4{
+  padding: 10px 0px 10px 10px;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-div-of-child-four {
+  display: flex;
+  /* margin: 4%; */
+  /* justify-content: space-between;  */
+  /* flex-shrink:5; */
+  align-content: space-between;
+  padding: 2%;
+  align-items: normal;
+  /* background-color: turquoise; */
+}
+
+.first-div-of-child-four img{
+  width: 14%;
+  border-radius: 50%;
+}
+
+.first-div-of-child-four button{
+  border-radius: 16px;
+  width: 60%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  /* margin-top: 5px; */
+  align-self: center;
+}
+
+
+.first-div-of-child-four button:hover {
+  cursor:pointer;
+}
+
+.first-div-of-child-four:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
+
+/* first div of child four 4 ends , and the second div begins   */
+
+.second-div-of-child-four{
+  display: flex;
+  padding: 2%;
+  align-content: space-between;
+  align-items: normal;   
+  /* background-color: tomato; */
+}
+
+.second-div-of-child-four img{
+  width: 14%;
+  border-radius: 50%;
+}
+
+.second-div-of-child-four:hover{
+  background-color:lightgray;
+  cursor: pointer;
+}
+
+
+.second-div-of-child-four button{
+  border-radius: 16px;
+  width: 48%;
+  height: 30px;
+  background-color: black;
+  color: white;
+   /* margin-top: 5px;  */
+  align-self: center;
+}
+ .second-div-of-child-four button:hover{
+  cursor: pointer;
+ }
+
+/* second div of child four ends, and third div begins  */
+
+.third-div-of-child-four{
+  display: flex;
+  padding: 2%;
+  align-content: space-between;
+  align-items: normal;   
+  /* background-color: yellow; */
+}
+
+.third-div-of-child-four:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.third-div-of-child-four img{
+  width: 14%;
+  border-radius: 10%;
+}
+
+.third-div-of-child-four button{
+  border-radius: 16px;
+  width: 29%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  /* /* margin-top: 5px; */
+  align-self: center;
+}
+
+.third-div-of-child-four button:hover{
+  cursor: pointer;
+}
+
+/*third div of child four ends , and last div of child four begins */
+
+.last-div-of-child-four{
+  /* background-color:yellowgreen; */
+  color: #4cb7e4;
+  padding: 15px 5px  15px 5px;
+}
+
+.last-div-of-child-four:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
+
+/* THIS IS WHERE EVERYTHING ABOUT CHILD FOUR 4 ENDS, AND CHILD FIVE 5 BEGINS */
+
+.child-five {
+  width: 88%; 
+  margin: 4%;  
+}
+
+/* FIRST-DIV-OF-CHILD-FIVE-BEGINS */
+.first-div-of-child-five {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  color: black;
+}
+
+.first-div-of-child-five a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-div-of-child-five a:hover {
+  text-decoration: underline;
+}
+
+/* FIRST-DIV-OF-CHILD-FIVE ENDS, AND SECOND-DIV-OF-CHILD-FIVE BEGINS  */
+
+.second-div-of-child-five {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  color: black;
+}
+
+.second-div-of-child-five a {
+  text-decoration: none;
+  color: black;
+}
+
+.second-div-of-child-five a:hover {
+  text-decoration: underline;
+}
+
+/* SECOND-DIV-OF-CHILD-FIVE-ENDS*/
